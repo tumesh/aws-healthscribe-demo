@@ -221,7 +221,7 @@ export default function NewConversation() {
         <ContentLayout
             header={
                 <Header
-                    description="Upload your audio file to be processed by AWS HealthScribe"
+                    description="Upload your audio file to be processed by SentinelCare Pro By ERL"
                     variant="awsui-h1-sticky"
                 >
                     New Conversation
@@ -232,7 +232,7 @@ export default function NewConversation() {
                 header={
                     <Header
                         variant="h3"
-                        description="Note: AWS HealthScribe offers additional features not built into this demo, such as Custom Vocabulary, Content Removal, and more. This is available via the AWS console, API, or SDK."
+                        description="Note: SentinelCare Pro By ERL offers additional features not built into this demo, such as Custom Vocabulary, Content Removal, and more. This is available via the AWS console, API, or SDK."
                     />
                 }
             >

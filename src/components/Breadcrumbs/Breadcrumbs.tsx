@@ -30,7 +30,7 @@ export default function Breadcrumbs() {
         items = [
             ...baseBreadcrumb,
             {
-                text: 'Conversations',
+                text: 'Consultations',
                 href: '/conversations',
             },
         ];
@@ -39,7 +39,7 @@ export default function Breadcrumbs() {
         items = [
             ...baseBreadcrumb,
             {
-                text: 'Conversations',
+                text: 'Consultations',
                 href: '/conversations',
             },
             {
@@ -51,7 +51,7 @@ export default function Breadcrumbs() {
         items = [
             ...baseBreadcrumb,
             {
-                text: 'New Conversation',
+                text: 'New Consultation',
                 href: '/new',
             },
         ];
