@@ -93,8 +93,8 @@ export default function Settings() {
                     >
                         <SpaceBetween size={'m'}>
                             <FormField
-                                label="AWS HealthScribe Region"
-                                description="During the public preview, AWS HealthScribe is available in the US East (N. Virginia) region."
+                                label="SentinelCare Pro Region"
+                                description="During the public preview, SentinelCare Pro is available in the US East (N. Virginia) region."
                             >
                                 <Select
                                     selectedOption={settings['app.region']}

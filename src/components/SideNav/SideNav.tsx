@@ -17,7 +17,7 @@ export default function SideNav({ activeHref }: SideNavProps) {
     const sideNavItems: SideNavigationProps.Item[] = [
         {
             type: 'link',
-            text: 'Consultatios',
+            text: 'Consultations',
             href: '/conversations',
         },
         {
@@ -40,7 +40,7 @@ export default function SideNav({ activeHref }: SideNavProps) {
         { type: 'divider' },
         {
             type: 'link',
-            text: 'AWS HealthScribe',
+            text: 'SentinelCare Pro',
             href: 'https://aws.amazon.com/healthscribe',
             external: true,
         },
