@@ -222,8 +222,7 @@ export default function NewPatientRegistration() {
             header={
                 <Header
                     description="Upload your audio file to be processed by SentinelCare Pro By ERL"
-                    variant="awsui-h1-sticky"
-                >
+                    variant="awsui-h1-sticky">
                     New Consultation
                 </Header>
             }
