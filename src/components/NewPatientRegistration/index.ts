@@ -1,3 +1,3 @@
-import NewConversation from './NewConversation';
+import NewConversation from './NewPatientRegistration';
 
 export default NewConversation;

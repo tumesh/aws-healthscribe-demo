@@ -31,11 +31,11 @@ import amplifyCustom from '../../aws-custom.json';
 import AudioRecorder from './AudioRecorder';
 import { AudioDropzone } from './Dropzone';
 import { AudioDetailSettings, AudioIdentificationType, InputName } from './FormComponents';
-import styles from './NewConversation.module.css';
+import styles from './NewPatientRegistration.module.css';
 import { verifyJobParams } from './formUtils';
 import { AudioDetails, AudioSelection } from './types';
 
-export default function NewConversation() {
+export default function NewPatientRegistration() {
     const { updateProgressBar } = useNotificationsContext();
     const navigate = useNavigate();
 
