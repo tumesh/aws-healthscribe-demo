@@ -75,7 +75,7 @@ function DeleteModal({
                     </SpaceBetween>
                 </Box>
             }
-            header="Delete AWS HealthScribe Conversation"
+            header="Delete SentinelCare Pro Consultation"
         >
             <p>
                 Permanently delete <strong>{selectedHealthScribeJob?.[0]?.MedicalScribeJobName || ''}</strong>. You
@@ -189,7 +189,7 @@ function TableHeader({ selectedHealthScribeJob, headerCounterText, listHealthScr
                     />
                 }
             >
-                Conversations
+                Consultations
             </Header>
             <Form>
                 <Grid gridDefinition={[{ colspan: 5 }, { colspan: 3 }]}>

@@ -39,6 +39,8 @@ export default function App() {
                 <Routes>
                     <Route index element={<Welcome />} />
                     <Route path="/debug" element={<Debug />} />
+                    <Route path="/newpatientregistration" element={<NewPatientRegistration />} />
+                    <Route path="/exisitingpatients" element={<ExisitingPatients />} />
                     <Route path="/conversations" element={<Conversations />} />
                     <Route path="/conversation/:conversationName" element={<Conversation />} />
                     <Route path="/new" element={<NewConversation />} />
